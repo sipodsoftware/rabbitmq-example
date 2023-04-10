@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{D74017AF-90C7-4121-BE8C-014CC7AED2FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{AB179444-FB5D-45C7-AD3E-FCA455B8FA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq", "RabbitMqConfig\RabbitMq.csproj", "{04888395-5635-4892-9627-DD955EF9BAC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74017AF-90C7-4121-BE8C-014CC7AED2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74017AF-90C7-4121-BE8C-014CC7AED2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74017AF-90C7-4121-BE8C-014CC7AED2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74017AF-90C7-4121-BE8C-014CC7AED2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB179444-FB5D-45C7-AD3E-FCA455B8FA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB179444-FB5D-45C7-AD3E-FCA455B8FA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB179444-FB5D-45C7-AD3E-FCA455B8FA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB179444-FB5D-45C7-AD3E-FCA455B8FA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04888395-5635-4892-9627-DD955EF9BAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04888395-5635-4892-9627-DD955EF9BAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04888395-5635-4892-9627-DD955EF9BAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04888395-5635-4892-9627-DD955EF9BAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6966B7A-2713-4EF9-AF90-96003E4BD7A2}
+	EndGlobalSection
+EndGlobal
